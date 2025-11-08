@@ -6,5 +6,24 @@
 body {
   background: #0d1116;
   min-height: 100vh;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cuadrado {
+  width: 400px;
+  height: 200px;
+  background: #141B23;
+  border-radius: 8px;
+}
+.img-01 {
+  width: 100px;
+  height: 100px;
+  background: #FDF5E7;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  border: 2px solid #555;
 }
